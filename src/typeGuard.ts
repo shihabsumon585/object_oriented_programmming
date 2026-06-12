@@ -31,12 +31,12 @@ type AdminUser = {
     role: "Admin"
 };
 
-const getUserInfo = (user: NormalUser | AdminUser) => {
-    if("role" in user) {
-        console.log(`${user.name} and his role is ${user.role}`);
-    } else {
-        console.log(`${user.name} is our guest user !`);
-    }
-}
+// const getUserInfo = (user: NormalUser | AdminUser) => {
+//     if("role" in user) {
+//         console.log(`${user.name} and his role is ${user.role}`);
+//     } else {
+//         console.log(`${user.name} is our guest user !`);
+//     }
+// }
 
-getUserInfo({name: "Md Shihab Sumon", role: "Admin"})
+// getUserInfo({name: "Md Shihab Sumon", role: "Admin"})
